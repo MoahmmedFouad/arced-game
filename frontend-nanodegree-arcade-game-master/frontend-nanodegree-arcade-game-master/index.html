@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+</head>
+<body>
+     
+    <section id="Game">
+        
+        <div class="row hearts">
+        <img src="images/Heart.png">
+        <img src="images/Heart.png">
+        <img src="images/Heart.png">
+        <img src="images/Heart.png">
+        </div>
+        
+    </section>
+    
+    <section class ="startGame">
+        <h1>ENEMY GAME</h1>
+        <div class="Start">
+            <button>START</button>
+            <h3>CHOSE YOUR PLAYER</h3>
+            <div class="row">
+                <div class="player" id="0"> <img src="images/char-boy.png"> </div>
+                <div class="player" id="1"> <img src="images/char-cat-girl.png"> </div>
+                <div class="player" id="2"> <img src="images/char-horn-girl.png"> </div>
+                <div class="player" id="3"> <img src="images/char-pink-girl.png"> </div>
+                <div class="player" id="4"> <img src="images/char-princess-girl.png"> </div>
+            </div>
+        </div>    
+    </section>
+    
+    <section class="fail">
+        <h1>YOU LOSE</h1>
+        <button class="playagain">Play again!</button>
+    </section>
+    
+    <section class="congratulations">
+        
+        <img src="images/correct-sign.png">
+        <h1>Congratulations! You Won!</h1>
+        <span class="wow" style="display: block">Woooooo!</span>
+        <button class="playagain">Play again!</button>
+        
+    </section>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/desgin.js"></script>
+</body>
+</html>
